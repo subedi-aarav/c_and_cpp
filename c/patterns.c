@@ -6,12 +6,14 @@ void pattern1();
 void pattern2();
 void pattern3();
 void pattern4();
+void pattern5();
 
 int main(){
 	pattern1();
 	pattern2();
 	pattern3();
 	pattern4();
+	pattern5();
 	return 0;
 }
 
@@ -101,3 +103,28 @@ void pattern4(){
 	}
 	printf("\n");
 }
+
+// * * *
+//  * *
+//   *
+void pattern5(){
+	int i,j,k,temp=5,temp2;
+	for(i=0;i<3;i++){
+		for(j=0;j<i;j++){
+			printf(" ");
+		}
+		temp2 = 0;
+		for(k=0;k<temp;k++){
+			if(temp2%2==0){
+				printf("*");
+			}else{
+				printf(" ");
+			}
+			temp2 = temp2 + 1;
+		}
+		temp = temp-2;
+		printf("\n");
+	}
+	printf("\n");
+}
+
