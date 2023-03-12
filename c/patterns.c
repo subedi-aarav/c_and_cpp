@@ -7,6 +7,7 @@ void pattern2();
 void pattern3();
 void pattern4();
 void pattern5();
+void pattern6();
 
 int main(){
 	pattern1();
@@ -14,8 +15,10 @@ int main(){
 	pattern3();
 	pattern4();
 	pattern5();
+	pattern6();
 	return 0;
 }
+
 
 // *****
 //  ***
@@ -126,5 +129,10 @@ void pattern5(){
 		printf("\n");
 	}
 	printf("\n");
+}
+/*This is a pattern function made by Sijan Pandey.*/
+void pattern6(){
+	printf("Hey i am pattern, this is made by Sijan Pandey.\nPushed by Aarav Subedi under the supervision of Safal Shrestha.");
+	return;
 }
 
