@@ -156,3 +156,9 @@ void pattern6(){
 void pattern7(){
 	printf("K xa,Oii Aarav, K xa? ");
 }
+
+
+
+
+//OK well done aaran
+//nice work
