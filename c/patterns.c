@@ -130,9 +130,24 @@ void pattern5(){
 	}
 	printf("\n");
 }
-/*This is a pattern function made by Sijan Pandey.*/
-void pattern6(){
-	printf("Hey i am pattern, this is made by Sijan Pandey.\nPushed by Aarav Subedi under the supervision of Safal Shrestha.");
-	return;
-}
 
+/*This is a pattern function made by Sijan Pandey.*/
+// ***
+// **
+// ******
+// *
+void pattern6(){
+	int i,j,k;
+	for(i=0;i<4;i++){
+		for(j=0;j<3-i;j++){
+			printf("*");
+		}
+		if(i==1){
+			printf("\n");
+			for(k=0;k<6;k++){
+				printf("*");
+			}	
+		}
+		printf("\n");
+	}
+}
