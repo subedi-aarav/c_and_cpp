@@ -8,6 +8,7 @@ void pattern3();
 void pattern4();
 void pattern5();
 void pattern6();
+void pattern7();
 
 int main(){
 	pattern1();
@@ -16,6 +17,7 @@ int main(){
 	pattern4();
 	pattern5();
 	pattern6();
+	pattern7();
 	return 0;
 }
 
@@ -150,4 +152,7 @@ void pattern6(){
 		}
 		printf("\n");
 	}
+}
+void pattern7(){
+	printf("K xa,Oii Aarav, K xa? ");
 }
