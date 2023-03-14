@@ -21,7 +21,6 @@ int main(){
 	return 0;
 }
 
-
 // *****
 //  ***
 //   *
@@ -154,11 +153,29 @@ void pattern6(){
 	}
 }
 void pattern7(){
-	printf("K xa,Oii Aarav, K xa? ");
+	int i,j,k,l,m;
+	int q=10;
+	int w=q-8,e=w+4;
+	for(i=0;i<4;i++){
+		for(j=0;j<q;j++){
+			printf("*");
+		}
+		printf("\n");
+		if(i==1){
+			for(m=0;m<w;m++){
+				for(k=0;k<4;k++){
+					printf("*");
+					if(k==1){
+						for(l=0;l<e;l++){
+							printf(" ");
+						}
+					}
+				}
+				printf("\n");
+			}
+		}
+	}
 }
-
-
-
 
 //OK well done aaran
 //nice work
