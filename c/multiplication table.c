@@ -15,9 +15,9 @@ do{
 
 int main(){
 	int n,i,w,e;
-	printf("enter any number : ");
+	printf("kindely enter the number you want the multiplication table of : ");
 	scanf("%d",&n);
-	printf("enter any number : ");
+	printf("upto the length of this multiplication table that u want : ");
 	scanf("%d",&e);
 	i = 1;
 	do{
