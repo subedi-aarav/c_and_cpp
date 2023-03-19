@@ -1,3 +1,5 @@
+// area and perimeter of triangle, square and  rectangle using else_if :
+
 #include <stdio.h>
 #include <string.h>
 

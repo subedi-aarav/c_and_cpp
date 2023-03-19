@@ -78,6 +78,6 @@ int main(){
 
 /*
 1. input (triangle or square or rectangle) from user.
-2. input (area , perimeter or both) from user.
+2. input task (area , perimeter or both) from user.
 3. perform the specified task and display the output.
 */

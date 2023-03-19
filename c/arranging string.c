@@ -17,7 +17,8 @@ int main(){
 	}
 //-----------------------------------------------------------------
 //	char names[10][15] = {"safal","aarav","diwas","nishan","ashim","sagun","sijan","nimesh","manishi",shristey"};
-
+// test names :- safal aarav diwas nishan ashim sagun sijan nimesh manishi shristey
+// test names :- fdg dfgd fdgdg rter aaa ryrt ghnhf nre a z
 	size = sizeof(names)/sizeof(names[1]);
 	printf("%d\n\n",size);
 	for(i=0;i<10;i++){
@@ -42,5 +43,3 @@ int main(){
 	printf("}");
 return 0;
 }
-
-// fdg dfgd fdgdg rter aaa ryrt ghnhf nre a z

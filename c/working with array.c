@@ -7,7 +7,14 @@ int main() {
     // count and as_found for counting unique element.
     // found to creat an array with only unique element.
     //temp for storing variable value temporarily while making assinding array.
+    
 //-----------------------------------------------------------------------------
+	printf("Orginal array :- ");
+	for (i=0;i<n;i++){
+		printf("%d ",arr[i]);
+	}
+	printf("\n");
+	
 //create a array with assending order.
 	int arr1[n];
 	for(i=0;i<n;i++){
@@ -19,10 +26,11 @@ int main() {
 			}
 		}
 	}
-	printf("array in acending order: ");
+	printf("Array in acending order: \n");
 	for (i=0;i<n;i++){
 		printf("%d ",arr[i]);
 	}
+	printf("\n");
 
 //------------------------------------------------------------------------------    
 //count total unique elements.
@@ -37,7 +45,7 @@ int main() {
 			count++;
 		}
 	}
-	printf("\ntotal unique elements :%d",count);
+	printf("\nTotal unique elements :%d\n\n",count);
 //------------------------------------------------------------------------------    
 //make a new array with only unique elements. 
     int arr2[count]; // initialize a new array to store distinct elements
@@ -58,6 +66,7 @@ int main() {
     }
 //------------------------------------------------------------------------------
 // print the new array with unique elements.
+	printf("New array with only unique elements from main array :-");
     printf("\narr2[] = {");
     for (i = 0; i < k; i++) {
         printf("%d", arr2[i]);
@@ -67,7 +76,7 @@ int main() {
     }
     printf("}\n");
     int qwe = (sizeof(arr2)/sizeof(arr2[0]));
-    printf("size of new array \"arr2\" with unique element: %d\n",qwe);
+    printf("Size of new array \"arr2\" with unique element: %d\n",qwe);
 //-------------------------------------------------------------------------------
 //-------------------------------------------------------------------------------    
 	int arr3[count];

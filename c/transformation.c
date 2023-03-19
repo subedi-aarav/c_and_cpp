@@ -2,7 +2,7 @@
 int main(){
 	int mat[3][3] = {{1,2,3},{4,5,6},{7,8,9}};
 	int size;
-//	size = sizeof(mat)/sizeof(mat[0]);
+	size = sizeof(mat)/sizeof(mat[0]);
 //	printf("%d\n",size);
 	int i,j=0,k,l,temp;
 	for(i=0;i<size;i++){

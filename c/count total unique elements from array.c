@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n[10] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
+    int n[10] = {1, 2, 2, 3, 3, 3, 4, 4, 7, 4,};
     int count = 0;
     int i, j;
     int is_unique;

@@ -1,9 +1,9 @@
  #include <stdio.h>
 #include <string.h>
- 
+
 int main() {
   char alphabet[20];
-  printf("Enter your name:\t");
+  printf("Enter your name: ");
   //scanf("%s",alphabet);
   gets(alphabet);
   printf("%d", strlen(alphabet));
