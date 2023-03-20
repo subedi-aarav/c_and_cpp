@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int arr[] = {1,2,2,4,3,6,5,5};
+int arr[] = {1,2,2,4,6,5,5,7,7,7,8,9,9,9,9,2,1};
 int n = sizeof(arr) / sizeof(arr[0]);
 int i, j, k = 0,l, found, as_found,temp,count=0,count2;
 
