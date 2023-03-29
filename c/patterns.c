@@ -152,10 +152,24 @@ void pattern6(){
 		printf("\n");
 	}
 }
+
+//When q=10
+//**********
+//**********
+//**      **
+//**      **
+//**      **
+//**      **
+//**      **
+//**      **
+//**********
+//**********
+
 void pattern7(){
 	int i,j,k,l,m;
-	int q=10;
-	int w=q-8,e=w+4;
+	//change the value of q to change the size of pattern.
+	int q=30;
+	int w=q-4,e=q-4;
 	for(i=0;i<4;i++){
 		for(j=0;j<q;j++){
 			printf("*");
@@ -176,6 +190,5 @@ void pattern7(){
 		}
 	}
 }
-
-//OK well done aaran
+//OK well done aarap
 //nice work
