@@ -124,7 +124,7 @@ void pattern5(){
 			}else{
 				printf(" ");
 			}
-			temp2 = temp2 + 1;
+			temp2 +=1;
 		}
 		temp = temp-2;
 		printf("\n");

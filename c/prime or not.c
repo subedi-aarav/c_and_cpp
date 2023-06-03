@@ -5,7 +5,7 @@ int main(){
 	int n;
 	printf("Kindly enter any number you like :");
 	scanf("%d" , & n);
-		if(n<=1){
+		if(n==1){
 		printf("1 is neither prime nor composite");
 		return 0;
 	}

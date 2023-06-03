@@ -6,6 +6,7 @@ void function3();
 void function4();
 void function5();
 void function6();
+
 int main(){
 //	printf("Function1 Call : \n");
 //	function1();
@@ -39,7 +40,7 @@ void function1(){
 //number between 1 to 9.
 void function2() {
   int num;
-  printf("kindly enter any between 1 to 9 number :");
+  printf("kindly enter any number between 1 to 9 number :");
   scanf ("%d", &num);
   
   switch (num){

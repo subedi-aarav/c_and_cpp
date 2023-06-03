@@ -6,7 +6,7 @@ int main(){
 	char r[100];
 	printf("Enter the sting: ");
 	gets(a);
-	puts(a);
+//	puts(a);
 	len = strlen(a);
 //	printf("%d",len);
 	

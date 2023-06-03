@@ -12,9 +12,14 @@ int main(){
 	scanf("%s", shape);
 	printf("Enter the operation (area or perimeter): ");
 	scanf("%s", oper);
+
+// strcmp function :- 	
+//	If str1 is less than str2, the function returns a negative integer.
+//	If str1 is greater than str2, the function returns a positive integer.
+//	If str1 is equal to str2, the function returns zero.	
 	
-	if (strcmp(shape, "triangle") == 0){
-		if (strcmp(oper, "area") == 0){
+	if (strcmp(shape, "triangle") == 0){  		
+		if (strcmp(oper, "area") == 0){			
 			printf("Enter breadth of triangle: ");
 			scanf("%d", &b);
 			printf("Enter height of triangle: ");

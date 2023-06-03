@@ -6,17 +6,17 @@ int main(){
 	for(;j<=n;j++){
 		isPrime=1;
 		i=2;
-	for (;i<j;i++){
-		if(j%i==0){
-			isPrime=0;
-			break;
+		for (;i<j;i++){
+			if(j%i==0){
+				isPrime=0;
+				break;
+			}
 		}
-	}
-	
-	if(isPrime)
-	{
-		sum+=j;	
-	}
+		
+		if(isPrime)
+		{
+			sum+=j;	
+		}
 }
 	
 	printf("%d\n",sum);
