@@ -7,7 +7,7 @@ int main(){
 	printf("Enter the string: ");
 	gets(a);
 	len= strlen(a);
-	printf("%d",len);
+	printf("%d\n",len);
 	for(i=0;i<len;i++){
 		for(j=0;j<10;j++){
 			if(a[i]==v[j]){
