@@ -18,7 +18,7 @@ int main(){
   }
   
   int mat1[a][b],mat2[p][q],res[a][q];
-  printf("Enter the elements of the matrix matirx:");
+  printf("Enter the elements of the first matirx:");
   for(i=0;i<a;i++){
     for(j=0;j<b;j++){
       scanf("%d",&mat1[i][j]);
@@ -34,23 +34,23 @@ int main(){
   return 0;
 }
   
-  void mul(int a,int b,int p,int q,int mat1[a][b],int mat2[p][q],int res[a][q]){
-  
+void mul(int a,int b,int p,int q,int mat1[a][b],int mat2[p][q],int res[a][q]){
+	  
     int i,j,k;
     
-  for(i=0;i<a;i++){
-    for(j=0;j<q;j++){
-      res[i][j]=0;
-      for(k=0;k<b;k++){
-        res[i][j]+=mat1[i][k]*mat2[k][j];
-      }
-    }
-  }
-  printf("The required multiplication is:\n");
-  for(i=0;i<a;i++){
-    for(j=0;j<q;j++){
-      printf("%d ",res[i][j]);
-    }
-    printf("\n");
-  }
+	for(i=0;i<a;i++){
+    	for(j=0;j<q;j++){
+      		res[i][j]=0;
+      		for(k=0;k<b;k++){
+        		res[i][j]+=mat1[i][k]*mat2[k][j];
+      		}
+    	}
+  	}
+	printf("The required multiplication is:\n");
+	for(i=0;i<a;i++){
+    	for(j=0;j<q;j++){
+    		printf("%d ",res[i][j]);
+    	}
+    	printf("\n");
+  	}
 }

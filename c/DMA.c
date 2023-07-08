@@ -39,7 +39,7 @@ int  main(){
 //---------------------------------------------------------------------------------
 
 	
-	// use of malloc
+// use of calloc
 //	int i,n;
 //	int *ptr;
 //	printf("Enter the size of array: ");
@@ -58,7 +58,7 @@ int  main(){
 
 //--------------------------------------------------------------------------------
 
-
+//use of realloc
 	printf("\nEnter the size of new array you want to create: \n");
 	scanf("%d",&n);
 	
@@ -73,6 +73,8 @@ int  main(){
 	for(i=0;i<n;i++){
 		printf("Enter the value no %d of this array is: %d\n",i+1,ptr[i]);
 	}	
+	
+	free(ptr);
 	
 	return 0;
 }
