@@ -3,7 +3,7 @@
 
 ### List of C Programs
 1. Patterns
-2. testt
+2. 
 3. 
 
 ### List of C++ Programs
